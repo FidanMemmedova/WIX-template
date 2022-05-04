@@ -1,0 +1,478 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    scroll-behavior: smooth;
+}
+.headerlist{
+    list-style-type: none;
+    display: flex;
+}
+nav{
+    background-color: #FFFF;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+}
+.navbar{
+    text-align: center;
+    font-family:'Raleway', sans-serif;
+    color:black;
+    display: flex;
+    margin-left: 425px;
+    margin-top: 2%;
+}
+.hp,.pa,.ov,.at,.ct{
+    text-decoration: none;
+    color:black;
+}
+.hp:hover,.pa:hover,.ov:hover,.at:hover,.ct:hover{
+    color: #0F4C85;
+}
+.logoimage{
+    margin-left: 80%;
+    margin-top: 1%;
+}
+.home,.practiceareas,.ourvision,.attorneys,.contact{
+    display: inline-flex;
+    text-align: center;
+    padding-left: 30px;
+    font-size: 13px;   
+}
+.section1{
+    position: relative;
+    background-color: #00305B;
+    background-image:linear-gradient(
+        #09305457,
+        #09305457
+      ), url('https://static.wixstatic.com/media/5bfb6f_a463284fd84145f292a32dc0f0e0cc31.jpg/v1/fill/w_1519,h_801,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/5bfb6f_a463284fd84145f292a32dc0f0e0cc31.jpg%22%27');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 750px;
+    background-origin: border-box;
+}
+.curtain{
+    position: relative;
+    width: 40%;
+    height: 100%;
+    background-color: rgba(0, 48, 91,0.7);
+}
+.curtain_child{
+    position: absolute;
+    left: 40%;
+    top: 30%;
+    color: #FFFF;
+}
+.curtain_child>h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+}
+.curtain_child>h2{
+    font-family:'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 42px;
+}
+.curtain_child>p{
+    margin-top: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+}
+.section2{
+    height: 80vh;
+}
+.section2_child1{
+    color:rgb(32, 48, 60);
+    font-family:'Raleway',sans-serif;
+    font-size: 42px;
+    display: inline-block;
+    width: 40%;
+    height: 100%;
+}
+.section2_child1_practiceareas{
+    padding-left: 40%;
+    padding-top: 15%;
+    display: inline-block;
+    color: #00305B;
+}
+.practice{
+  font-weight: 900;
+}
+.section2_child2{
+    display: inline-block;
+}
+.LITIGATION{
+    top: 856px;
+    padding-left:69px;
+    width: 50px;
+    height: 50px;
+    font-family: 'Open Sans', sans-serif;
+    position: absolute;
+    display: inline-block;
+}
+.BUSINESS{
+    top: 856px;
+    display: inline-block;
+    position: absolute;
+     width: 50px;
+    height:50px;
+    padding-left: 400px;
+    font-family: 'Open Sans', sans-serif;
+}
+.INSOLVENCY{
+    top: 986px;
+    display: inline-block;
+    position: absolute;
+     width: 50px;
+    height: 50px;
+    padding-left: 69px;
+    font-family: 'Open Sans', sans-serif;
+}
+.FRAUD{
+    top: 986px;
+    display: inline-block;
+    position: absolute;
+     width: 50px;
+    height: 50px;
+    padding-left: 400px;
+    font-family: 'Open Sans', sans-serif;
+}
+.DISPUTERESOLUTION{
+    top: 1116px;
+    width: 50px;
+    height: 50px;
+    padding-left:69px;
+    font-family: 'Open Sans', sans-serif;
+    position: absolute;
+    display: inline-block;
+}
+.TAX{
+    top: 1116px;
+    width: 50px;
+    height: 50px;
+    padding-left:400px;
+    font-family: 'Open Sans', sans-serif;
+    position: absolute;
+    display: inline-block;
+}
+.LITIGATION>h1,.BUSINESS>h1,.INSOLVENCY>h1,.FRAUD>h1,.DISPUTERESOLUTION>h1,.TAX>h1{
+    width:240px;
+    height: 27px;
+    font-size: 20px;
+    color: #00305B;
+    font-weight: 400;
+}
+.LITIGATION>p,.BUSINESS>p,.INSOLVENCY>p,.FRAUD>p,.DISPUTERESOLUTION>p,.TAX>p{
+    width:240px;
+    height: 37px;
+    padding-top: 20px;
+    font-size: 14px;
+    color: #0F4C85;
+}
+.square1,.square2,.square3,.square4,.square5,.square6{
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    background-color: rgb(65, 183, 196);
+    top: 10px;
+    right: 70px;
+}
+.section3{
+    background-color: #00305B;
+    width: 100%;
+    height: 640px;
+    text-align: center;
+    color: #FFFF;
+    font-family:'Raleway',sans-serif;
+}
+.section3>h1{
+    font-size: 42px;
+    font-weight: 400;
+    padding-top: 95px;
+}
+.p1{
+    font-weight: 500;
+    padding-top: 80px;
+}
+.p2,.p3{
+    padding-top: 38px;
+}
+.section4{
+    position: relative;
+    background-color: #00305B;
+    background-image:linear-gradient(
+      #37383856,
+      #37383856
+    ), url('https://static.wixstatic.com/media/5bfb6f_bb013bf1966340ceb9a576d68aa42273.jpg/v1/fill/w_1375,h_801,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/5bfb6f_bb013bf1966340ceb9a576d68aa42273.jpg%27');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 700px;
+    background-origin: border-box;
+}
+.section5{
+    width: 100%;
+    height: 90vh;
+    font-family:'Open',sans-serif;
+    text-align: center;
+
+}
+.section5>h1{
+    text-align: center;
+    font-size: 42px;
+    padding-top: 90px;
+    color: #00305B;
+    font-weight:lighter;
+    padding-bottom: 72px;
+}
+.person1,.person2,.person3{
+   display: inline-block;  
+}
+.person2,.person3{
+    padding-left: 100px;
+}
+.p1img,.p2img,.p3img{
+    width: 193px;
+    height: 220px;
+}
+.person1inf,.person2inf,.person3inf{
+    display: inline;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+.person1inf>h1,.person2inf>h1,.person3inf>h1{
+    font-size: 20px;
+    color: #00305B;
+    font-weight: 400;
+    padding-top: 20px;
+}
+.person1inf>h2,.person2inf>h2,.person3inf>h2{
+    font-size:16px;
+    color: #0F4C85;
+    font-weight: 400;
+    padding-top: 5px;
+    padding-bottom: 23px;
+}
+.hr1,.hr2,.hr3{
+    border: 0.2px solid rgba(131, 183, 230, 0.65);
+}
+.person1inf>h3,.person2inf>h3,.person3inf>h3{
+    font-size: 16px;
+    color: #00305B;
+    font-weight: 400;
+    padding-top: 25px;
+}
+.section6{
+    width: 100%;
+    height: 80vh;
+    background-color: rgb(15,76,133,0.7);
+    position: relative;
+    background-image:linear-gradient(
+      #004586c7,
+      #004586c7
+    ), url('https://static.wixstatic.com/media/5bfb6f_c9a631e8e43443cb9d7ad97133d9d83d.jpg/v1/fill/w_1425,h_809,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/5bfb6f_c9a631e8e43443cb9d7ad97133d9d83d.jpg%27');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 1000px;
+    background-origin: border-box;
+    color: #FFFF;
+    display: inline-block;
+}
+.section6curtain{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: rgba( 15,76,133,0.8);   
+}
+.section6curtain2{
+    position: relative;
+    width: 40%;
+    height: 90%;
+    background-color: rgba(0,48,91,0.5);    
+}
+.section6curtain2>h1{
+    position: absolute;
+    left: 48%;
+    top: 20%;
+    font-size: 42px;
+    font-family: 'Raleway',sans-serif;
+    font-weight: 400;
+}
+.ouraddress{
+    top: 126px;
+    left: 655px;
+    position: absolute;
+    display: inline;
+    font-size: 20px;
+    font-family: 'Open Sans',sans-serif; 
+}
+.our{
+    font-weight:700 ;
+}
+.section6_address{
+    top: 206px;
+    left: 655px;
+    position: absolute;
+    display: inline;
+    font-size: 16px;
+    font-family: 'Open Sans',sans-serif; 
+}
+.email,.tel{
+    font-weight: bold;
+}
+.findus{
+    position: absolute;
+    top: 290px;
+    left: 655px;
+    font-size: 18px;
+    color: #FFFF;
+    font-family: 'Open Sans',sans-serif; 
+}
+.section6_text{
+    position: absolute;
+    top: 350px;
+    left: 655px;
+    font-size: 16px;
+    font-family: 'Open Sans',sans-serif; 
+}
+form{
+    position: absolute;
+    display: inline-block;
+    left: 655px;
+    top: 390px;
+    font-size: 16px;
+    font-family: 'Open Sans',sans-serif; 
+}
+label:after{
+    content:"*";
+    padding-left: 5px;
+}
+input{
+    width: 290px;
+    padding: 5px 5px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 0;
+    outline: none;
+    border: 3px solid white;
+}  
+input:hover{
+border: 3px solid rgb(140, 214, 36);
+} 
+.message{
+margin-left:320px;
+position: absolute;
+top: 0px;
+}
+.message1{
+    position: absolute;
+    width: 286px;
+    height: 230px;
+}
+.button{
+   position: absolute;
+    top: 667px;
+    left: 655px;
+    width: 604px;
+    height: 40px;
+    background-color: #0F4C85;
+    color: #FFFF;
+    font-size: 16px;
+    font-family: 'Open Sans',sans-serif;
+    border-color: #FFFF;
+    border: 1px solid white;
+    transition: background-color 0.7s,border 0.7s;
+} 
+.btt{
+    top: 4375px;
+}
+
+.button:hover{
+    background-color: #00305B;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.footertext{
+    color: #0F4C85;
+    height: 10vh;
+    width: 100%;
+    padding-top: 80px;
+}
+.footertext>p{
+    padding-top: 0px;
+    padding-left: 287px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    color: #0F4C85;
+    display: inline-block;
+}
+.footertext>p>a{
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    color: #0F4C85;
+}
+.footerimages{
+    float: right;    
+    padding-right: 296px;
+    position: absolute;
+    margin-left: 1182px;
+}
+.twitter{
+    position: absolute;
+    margin-top: -22px;
+    margin-left: 15px;
+   
+}
+.linkedin{
+    position: absolute;
+     margin-top: -22px;
+}
+
+#myBtn {
+    width: 58px;
+    left: 710px;
+    display: block;
+    height: 40px;
+    top: 4733px;
+    position: absolute;
+    display: block;
+    bottom: 0px;
+    display: block;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    color: #FFFF;
+    background-color: #00305B;
+    cursor: pointer; 
+    z-index: 99;
+    transform: rotate(180deg);
+    background:url( "https://static.wixstatic.com/media/dbbdc91820535cbbeb0664011cb93255.png/v1/fill/w_44,h_23,al_c,lg_1,q_85,enc_auto/dbbdc91820535cbbeb0664011cb93255.png") no-repeat;
+}
+#myBtn:hover {
+    background-color: transparent
+}
+.section7{
+    top: 4316px;
+    width:100%;
+    height:9vh;
+    background-color: #00305B; 
+    margin-top: -7px !important;
+}
+.btt{
+    position: absolute;
+    color: #FFFF;
+    font-size: 16px;
+    font-family: 'Open Sans',sans-serif;
+    left: 696px;
+    top: 4783px;
+    
+}
+
+
+
+
+
+
+
+
